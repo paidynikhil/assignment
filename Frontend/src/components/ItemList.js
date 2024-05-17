@@ -28,7 +28,7 @@ const ItemList = () => {
     fetchUsers(API);
     const interval = setInterval(() => fetchUsers(API), POLL_INTERVAL);
     return () => clearInterval(interval); // Cleanup interval on component unmount
-  }, [users]);
+  }, [fetchUsers]);
 
   return (
     <>
