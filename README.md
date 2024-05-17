@@ -19,24 +19,23 @@ This project is a simple React application that displays a list of items fetched
 
 1. **Clone the repository:**
 
-   ```bash
    git clone <repository-url>
    cd <repository-directory>
 
 2. **Install dependencies**
-  ```bash
+ 
    npm install
 
 3. **Create a '.env' file:**
 - In the root directory of the project, create a .env file and add the following environment variables:
 
-  ```bash
   MONGODB_URL=<Your MongoDB URL>
   PORT=5000
 
 4. **Start the Server**
-  ```bash
+  
    npm start
+
 
 ## Mock API Endpoints
 
@@ -54,7 +53,7 @@ To create, update, or delete items, use Postman or Thunder Client with the follo
 
   - Method: POST
   - URL: http://localhost:5000/items
-  ```bash
+  
   {
   "name": "New Item"
   }
@@ -63,7 +62,7 @@ To create, update, or delete items, use Postman or Thunder Client with the follo
 
   - Method: PUT
   - URL: http://localhost:5000/items/:id
-  ```bash
+  
   {
   "name": "Updated Item"
   }
@@ -72,6 +71,7 @@ To create, update, or delete items, use Postman or Thunder Client with the follo
 
   - Method: DELETE  
   - URL: http://localhost:5000/items/:id
+
 
 ## Running the React App
 The React application will automatically fetch data from the server and update the UI when the data changes.
