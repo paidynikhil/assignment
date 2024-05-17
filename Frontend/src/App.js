@@ -8,10 +8,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className="App">
-      {/* ----------------using promises --------------*/}
-      <ItemList />
-      {/* ---------------------- using axios ------------------- */}
-      {/* <ItemList2/> */}
+      <ItemList /> 
     </div>
   );
 };
